@@ -1,0 +1,87 @@
+* {
+    margin: 0.5vh, 0.5vw;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    background: url(../img/indexbg.jpg);
+    background-size: cover;
+    background-position: top;
+
+
+
+}
+
+header {
+    width: 98vw;
+    height: 8vh;
+    border-style: ridge;
+    border-width: medium;
+    padding: 10px;
+    background-color: rgb(27, 68, 68);
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+button {
+
+    height: 75px;
+    width: 150px;
+    padding: 1%;
+    /* border: 10%; */
+    border-width: thick;
+    font-family: 'Segoe UI', sans-serif;
+    display: inline-flexbox;
+    font-size: medium;
+    background-color: #f1f1f1;
+    margin: 50px;
+    text-align: center;
+}
+
+#button-1 {
+    border-color: navy;
+}
+
+
+#button-2 {
+    border-color: rgb(20, 255, 255);
+}
+
+#button-3 {
+    border-color: rgb(136, 182, 31);
+}
+
+#button-4 {
+    border-color: rgb(255, 68, 168);
+}
+
+#button-5 {
+    border-color: rgb(255, 20, 20);
+}
+
+#button-6 {
+    border-color: rgb(239, 255, 20);
+}
+
+#button-7 {
+    border-color: rgb(20, 255, 255);
+}
+
+#button-8 {
+    border-color: rgb(136, 182, 31);
+}
+
+#button-9 {
+    border-color: rgb(255, 68, 168);
+}
+
+#button-10 {
+    border-color: rgb(255, 20, 20);
+}

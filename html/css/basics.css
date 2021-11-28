@@ -1,0 +1,92 @@
+* {
+    margin: 0.5vh;
+    padding: 0%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: rgb(11, 15, 15);
+    color: rgb(231, 233, 231);
+}
+
+.header {
+    width: 97.25vw;
+    height: 8vh;
+    border-style: ridge;
+    border-width: medium;
+    padding: 10px;
+    background-color: rgb(3, 80, 80);
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+    display: inline-block;
+
+    position: fixed;
+    /* overflow: hidden; */
+
+
+}
+
+.moves {
+    border-style: groove;
+    height: auto;
+    background-color: rgb(49, 1, 49);
+
+}
+
+.back {
+    margin-left: 2vw;
+
+}
+
+.forward {
+    margin-left: 85vw;
+    margin-bottom: 0.75px;
+}
+
+.head {
+    height: 12vh;
+    border-style: groove;
+    background-color: rgb(13, 22, 24);
+    color: wheat;
+
+}
+
+.workspace {
+    border-style: groove;
+}
+
+.workspace-1 {
+    margin-top: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-style: groove;
+
+    padding: 5vh;
+}
+
+@media screen and (min-width:1300px) {
+    .header {
+        width: 96.5vw;
+    }
+}
+
+@media screen and (min-width:960px)and (max-width:1300px) {
+    .header {
+        width: 95vw;
+    }
+
+
+}
+
+@media screen and (max-width:960px) {
+    .header {
+        width: 93vw;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .header {
+        width: 90vw;
+    }
+}
